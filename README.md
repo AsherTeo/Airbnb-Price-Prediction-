@@ -5,8 +5,8 @@ bert-base-multilingual-cased
 | **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
 |-------|---------------------|------------------------------------|--------------|---------------|
 | 1     | Text Only          | BERT → Linear                     | **78.465**     | **176.091**      |
-| 2     | Meta Only          | 2-Layer MLP                       | **X.XX**     | **X.XX**      |
-| 3     | Meta Only          | Fine-Tuned XGB                    | **X.XX**     | **X.XX**      |
+| 2     | Meta Only          | 2-Layer MLP                       | **48.534**     | **136.277**      |
+| 3     | Meta Only          | Fine-Tuned XGB                    | **44.368**     | **138.540**      |
 | 4     | Text + Meta        | BERT + Meta → Linear MLP          | **X.XX**     | **X.XX**      |
 | 5     | Text + Meta        | TF-IDF + Meta → XGB               | **X.XX**     | **X.XX**      |
 | 6     | Text + Meta        | BERT (MaxPool) + Meta → XGB       | **X.XX**     | **X.XX**      |
