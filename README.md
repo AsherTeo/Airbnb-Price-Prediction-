@@ -13,6 +13,9 @@ bert-base-multilingual-cased
 | 7     | Text + Meta        | BERT (MeanPool) + Meta → XGB      | **X.XX**     | **X.XX**      |
 | 8     | Text + Meta        | BERT (MaxPool) + Meta → 2-Layer MLP | **X.XX**     | **X.XX**      |
 | 9     | Text + Meta        | BERT (MeanPool) + Meta → 2-Layer MLP | **X.XX**     | **X.XX**      |
+| 10     | Combined Text + Meta        | BERT + Meta → Linear MLP          | **X.XX**     | **X.XX**      |
+| 6     | Combined Text + Meta        | BERT (MaxPool) + Meta → XGB       | **X.XX**     | **X.XX**      |
+| 8     | Combined Text + Meta        | BERT (MaxPool) + Meta → 2-Layer MLP | **X.XX**     | **X.XX**      |
 
 - **Model 1**: Used only text features via a BERT-based model and performed reasonably well.
 - **Model 3**: Fine-tuned XGBRegressor on meta features delivered strong results for numerical data alone.
