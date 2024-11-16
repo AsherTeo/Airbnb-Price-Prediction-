@@ -4,7 +4,7 @@ bert-base-multilingual-cased
 
 | **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
 |-------|---------------------|------------------------------------|--------------|---------------|
-| 1     | Text Only          | BERT → Linear                     | **X.XX**     | **X.XX**      |
+| 1     | Text Only          | BERT → Linear                     | **78.465**     | **176.091**      |
 | 2     | Meta Only          | 2-Layer MLP                       | **X.XX**     | **X.XX**      |
 | 3     | Meta Only          | Fine-Tuned XGB                    | **X.XX**     | **X.XX**      |
 | 4     | Text + Meta        | BERT + Meta → Linear MLP          | **X.XX**     | **X.XX**      |
