@@ -8,13 +8,13 @@ bert-base-multilingual-cased
 | 2     | Meta Only          | 2-Layer MLP                       | **48.534**     | **136.277**      |
 | 3     | Meta Only          | Fine-Tuned XGB                    | **44.368**     | **138.540**      |
 | 4     | Combined Text + Meta        | BERT + Meta → Linear MLP          | **46.678**     | **140.983**      |
-| 5     | Text + Meta        | TF-IDF + Meta → XGB               | **44.469**     | **139.262**      |
-| 6     | Text + Meta        | BERT (MaxPool) + Meta → XGB       | **X.XX**     | **X.XX**      |
-| 7     | Text + Meta        | BERT (MeanPool) + Meta → XGB      | **43.922**     | **136.395**      |
+| 5     | Text + Meta        | TF-IDF + Meta →  Fine-Tuned XGB               | **44.469**     | **139.262**      |
+| 6     | Text + Meta        | BERT (MaxPool) + Meta →  Fine-Tuned XGB       | **X.XX**     | **X.XX**      |
+| 7     | Text + Meta        | BERT (MeanPool) + Meta →  Fine-Tuned XGB      | **43.922**     | **136.395**      |
 | 8     | Text + Meta        | BERT (MaxPool) + Meta → 2-Layer MLP | **47.308**     | **136.174**      |
 | 9     | Text + Meta        | BERT (MeanPool) + Meta → 2-Layer MLP | **X.XX**     | **X.XX**      |
 | 10     | Combined Text + Meta        | BERT + Meta → Linear MLP          | **X.XX**     | **X.XX**      |
-| 11     | Combined Text + Meta        | BERT (MaxPool) + Meta → XGB       | **X.XX**     | **X.XX**      |
+| 11     | Combined Text + Meta        | BERT (MaxPool) + Meta →  Fine-Tuned XGB       | **X.XX**     | **X.XX**      |
 | 12    | Combined Text + Meta        | BERT (MaxPool) + Meta → 2-Layer MLP | **X.XX**     | **X.XX**      |
 
 - **Model 1**: Used only text features via a BERT-based model and performed reasonably well.
