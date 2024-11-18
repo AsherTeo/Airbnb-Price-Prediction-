@@ -14,7 +14,7 @@ bert-base-multilingual-cased
 | 8     | Text + Meta        | BERT (MeanPool) + Meta →  Fine-Tuned XGB      | **43.775**     | **136.390**      |
 | 9     | Text + Meta        | BERT (MaxPool) + Meta → 2-Layer MLP | **47.033**     | **136.671**      |
 | 10     | Text + Meta        | BERT (MeanPool) + Meta → 2-Layer MLP | **48.458**     | **137.182**      |
-| 11    | Combined Text + Meta        | BERT (MaxPool) + Meta →  Fine-Tuned XGB       | **X.XX**     | **X.XX**      |
+| 11    | Combined Text + Meta        | BERT (MaxPool) + Meta →  Fine-Tuned XGB       | **44.208**     | **137.736**      |
 | 12    | Combined Text + Meta        | BERT (MaxPool) + Meta → 2-Layer MLP | **47.534**     | **139.301**      |
 | 13    | Convert all features to text       | BERT Embedding → Linear       | **X.XX**     | **X.XX**      |
 
