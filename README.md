@@ -7,7 +7,7 @@ bert-base-multilingual-cased
 | 1     | Combined Text Only          | BERT Embedding → Linear                     | **77.353**     | **178.627**      |
 | 2    | Meta Only          | 2-Layer MLP                      | **46.577**     | **136.621**      |
 | 3     | Meta Only          | Fine-Tuned XGB                    | **44.115**     | **138.052**      |
-| 4     | Combined Text + Meta        | BERT Embedding + Meta → Linear MLP          | **46.678**     | **140.983**      |
+| 4     | Combined Text + Meta        | BERT Embedding + Meta → Linear MLP          | **47.210**     | **137.606**      |
 | 5     | Text + Meta        | TF-IDF + Meta →  Fine-Tuned XGB               | **43.788**     | **138.038**      |
 | 6     | Combined Text + Meta        | BERT Embedding + Meta →  Fine-Tuned XGB       | **45.693**     | **140.799**      |
 | 7     | Text + Meta        | BERT (MaxPool) + Meta →  Fine-Tuned XGB       | **43.551**     | **136.251**      |
