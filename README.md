@@ -1,4 +1,7 @@
-# Airbnb-Price-Prediction-
+# Overview
+
+In this project, I developed a multi-modal machine learning model for Airbnb pricing prediction in Melbourne. The dataset, downloaded from [data source], contains 176 features. The project is divided into three phases. First, exploratory data analysis (EDA) was performed to analyze and identify important features. Second, data transformation techniques were applied based on the type of data: numerical features were scaled using Box-Cox transformation, categorical features were encoded using one-hot encoding, and text features were processed to extract BERT embeddings using max pooling. Finally, the transformed numerical, categorical, and text features were combined and used as input for an XGBoost (XGB) model to predict Airbnb prices.
+
 
 bert-base-multilingual-cased
 
