@@ -5,7 +5,8 @@ bert-base-multilingual-cased
 | **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
 |-------|---------------------|------------------------------------|--------------|---------------|
 | 1     | Combined Text Only          | BERT Embedding → Linear                     | **78.502**     | **176.116**      |
-| 2     | Meta Only          | 2-Layer MLP                       | **48.534**     | **136.277**      |
+| 2a     | Meta Only          | 2-Layer MLP (MSE Loss)                      | **48.534**     | **136.277**      |
+| 2b     | Meta Only          | 2-Layer MLP (Huber Loss )             | **46.281**     | **142.994**      |
 | 3     | Meta Only          | Fine-Tuned XGB                    | **44.115**     | **138.236**      |
 | 4     | Combined Text + Meta        | BERT Embedding + Meta → Linear MLP          | **46.678**     | **140.983**      |
 | 5     | Text + Meta        | TF-IDF + Meta →  Fine-Tuned XGB               | **43.788**     | **138.038**      |
