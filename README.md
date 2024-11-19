@@ -15,7 +15,7 @@ bert-base-multilingual-cased
 | 9     | Text + Meta        | BERT (MaxPool) + Meta → 2-Layer MLP | **45.852**     | **137.473**      |
 | 10     | Text + Meta        | BERT (MeanPool) + Meta → 2-Layer MLP | **46.319**     | **137.098**      |
 | 11    | Combined Text + Meta        | BERT (MaxPool) + Meta →  Fine-Tuned XGB       | **44.208**     | **137.736**      |
-| 12    | Combined Text + Meta        | BERT (MaxPool) + Meta → 2-Layer MLP | **47.534**     | **139.301**      |
+| 12    | Combined Text + Meta        | BERT (MaxPool) + Meta → 2-Layer MLP | **46.254**     | **140.097**      |
 | 13    | Convert all features to text       | BERT Embedding → Linear       | **78.446**     | **176.159**      |
 
 - **Model 1**: Used only text features via a BERT-based model and performed reasonably well.
