@@ -6,6 +6,17 @@ This project focuses on developing a robust Multi-Modal Machine Learning model t
 
 The Airbnb Prices Prediction Dataset can be found [here](https://github.com/georgian-io/Multimodal-Toolkit/tree/master/datasets/Melbourne_Airbnb_Open_Data). The Airbnb Prices Prediction Dataset can be found here. The dataset consists of 18,297 training samples, 2,288 validation samples, and 2,288 test samples.
 
+# Exploratort Data Analysis(EDA)
+
+## Data Proprcessing
+Feature Distribution Analysis: Analyzed the distribution of each feature to identify trends and detect anomalies.
+Price Range Assessment: Checked the minimum and maximum values of the target variable (price) to understand its range and identify potential outliers.
+Manual Feature Selection: Reviewed and manually selected key features based on domain knowledge and their correlation with the target variable.
+
+
+# Data Transformation
+
+# Machine Learning
 
 
 
