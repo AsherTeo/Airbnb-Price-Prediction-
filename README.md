@@ -4,7 +4,9 @@ This project focuses on developing a robust Multi-Modal Machine Learning model t
 
 # Dataset
 
-The Airbnb Prices Prediction Dataset can be found [here](https://github.com/georgian-io/Multimodal-Toolkit/tree/master/datasets/Melbourne_Airbnb_Open_Data). There are total of 18297 training dataset, 2288 validation and 2288 testing dataset and 275 features. 
+The Airbnb Prices Prediction Dataset can be found [here](https://github.com/georgian-io/Multimodal-Toolkit/tree/master/datasets/Melbourne_Airbnb_Open_Data). The Airbnb Prices Prediction Dataset can be found here. The dataset consists of 18,297 training samples, 2,288 validation samples, and 2,288 test samples.
+
+
 
 
 bert-base-multilingual-cased
