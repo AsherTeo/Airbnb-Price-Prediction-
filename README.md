@@ -3,8 +3,6 @@
 This project focuses on developing a robust Multi-Modal Machine Learning model to accurately predict Airbnb prices in Melbourne. The dataset comprises 176 diverse features, including property details, location attributes, and host information. The project comprises three key phases: Exploratory Data Analysis (EDA) to identify trends, correlations, and patterns within the data, Data Transformation involving comprehensive feature engineering, scaling, and encoding to prepare the dataset, and Machine Learning, where advanced models such as XGBoost were trained and fine-tuned using Optuna for optimal performance. To leverage textual features like property descriptions, BERT embeddings with max pooling were utilized to extract meaningful contextual representations, which were seamlessly integrated with numerical and categorical features for improved model result.
 
 
-techniques were applied based on the type of data: numerical features were scaled using Box-Cox transformation, categorical features were encoded using one-hot encoding, and text features were processed to extract BERT embeddings using max pooling. Finally, the transformed numerical, categorical, and text features were combined and used as input for an XGBoost (XGB) model to predict Airbnb prices.
-
 
 bert-base-multilingual-cased
 
