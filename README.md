@@ -36,7 +36,7 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 </tr>
 </table>
 
-## Data Proprcessing
+# Data Proprcessing
 - **Check the minimum and maximum values of the target variable (price) to understand its range and identify potential outliers.**
 - **Review and manually selected key features based on domain knowledge**
 - **Replaced missing values with the median for numerical features and the mode for categorical features**
