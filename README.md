@@ -40,8 +40,8 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 
 ## 1) Target Variable (Price):
 
--Checked minimum and maximum values for outliers.
--Outliers capped at 99th percentile to prevent skewed predictions.
+- Checked minimum and maximum values for outliers.
+- Outliers capped at 99th percentile to prevent skewed predictions.
 
 ## 2) Feature Selection and Transformation:
   **Numerical Features:**
