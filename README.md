@@ -50,7 +50,8 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 - Retained features with statistical significance (p-value < 0.05).
   
 **Categorical Features:**
-- Evaluated importance using Chi-Square test; retained the top 70 features based on scores.
+- Evaluated importance using Chi-Square test
+- Retained the top 70 features based on scores.
 
 ## 3) Textual Features:
 - Used BERT-base-multilingual-cased to generate embeddings for property descriptions.
@@ -58,9 +59,17 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 
 # Machine Learning
 
-This section outlines experiments conducted using various feature combinations and machine learning methods to predict Airbnb prices. Different data types, such as BERT-base-multilingual-cased embeddings, were evaluated to assess their impact on performance.
+A series of experiments were conducted to predict Airbnb prices using different data modalities (text, metadata, and combined features). We also explored a range of machine learning architectures, including hybrid models that combined text-based embeddings with structured metadata. 
 
-The table below summarizes the experiments, detailing the features used, methods applied, and evaluation metrics (Mean Absolute Error - MAE, and Root Mean Squared Error - RMSE):
+Below is a breakdown of the features used, methods applied, and the evaluation metrics (Mean Absolute Error - MAE, and Root Mean Squared Error - RMSE) for each experiment.
+
+Meta - These features include numerical and categorical attributes such as price, location, or property type. Numerical features are converted into descriptive text, and categorical features are transformed into corresponding textual labels.
+Text - Text features, such as property descriptions or reviews, are kept in their own separate columns (e.g., summary_embedding).
+Combined Text - When combining multiple text columns, the individual text values are concatenated using a separator token, such as [SEP] Eg. "We're in the US for 3 weeks [SEP] I’m an Aussie living in Uganda. [SEP] "
+
+Convert all features to text - Numerical and categorical features are converted into a textual representation. Eg:
+
+"The space is separated from the living room by a screen. However it is as big as a bedroom and has a 'window' (actually it's a door) towards the balcony (east-facing). There are a desk, a chair, a lamp, a double size mattress & a portable wardrobe. You will have two flat mates in their 20s and a bunny pet to keep you company. Please NOTE that the living room are affected by NOISE and SMELL from cooking. [SEP] Unknown [SEP] This Airbnb offers amenities such as: hair_dryer, shampoo, heating, and smoking_allowed. It accommodates to 2 guests, with 2 bedrooms, 2 bathrooms, and 2 beds. The cleaning fee costs $11.0. Available for 0 days in the last 30 days and 0 days in the last year. 19 review."
 
 bert-base-multilingual-cased
 
@@ -85,7 +94,10 @@ bert-base-multilingual-cased
 - **Model 5**: TF-IDF with meta features produced competitive results with fewer resources.
 - **Model 6 & 7**: Pooling strategies with BERT embeddings demonstrated promising performance when combined with meta data.
 
----
+# Best Performing Model
+Pipeline: BERT (MaxPool) embeddings combined with meta features, followed by Fine-Tuned XGB.
+MAE: 43.551
+RMSE: 136.251
 
 ### Notes
 - **BERT Embedding**: Feature vectors extracted from a pre-trained BERT model.
