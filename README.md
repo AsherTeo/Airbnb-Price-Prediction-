@@ -40,20 +40,20 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 
 ## 1-Target Variable (Price):
 
-Checked minimum and maximum values for outliers.
-Outliers capped at 99th percentile to prevent skewed predictions.
+-Checked minimum and maximum values for outliers.
+-Outliers capped at 99th percentile to prevent skewed predictions.
 
 ## 2-Feature Selection and Transformation:
-  Numerical Features:
-  Removed features with variance inflation factors (VIF) > 20 to address multicollinearity.
-  Applied Box-Cox transformation to normalize skewed features (skewness > 0.8).
-  Retained features with statistical significance (p-value < 0.05).
-  Categorical Features:
-  Evaluated importance using Chi-Square test; retained the top 70 features based on scores.
+  **Numerical Features:**
+- Removed features with variance inflation factors (VIF) > 20 to address multicollinearity.
+- Applied Box-Cox transformation to normalize skewed features (skewness > 0.8).
+- Retained features with statistical significance (p-value < 0.05).
+  **Categorical Features:**
+- Evaluated importance using Chi-Square test; retained the top 70 features based on scores.
 
 ## 3-Textual Features:
-Used BERT-base-multilingual-cased to generate embeddings for property descriptions.
-Aggregated embeddings using Max Pooling for better contextual representation.
+- Used BERT-base-multilingual-cased to generate embeddings for property descriptions.
+- Aggregated embeddings using Max Pooling for better contextual representation.
 
 # Machine Learning
 
