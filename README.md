@@ -11,7 +11,8 @@ The Airbnb Prices Prediction Dataset can be found [here](https://github.com/geor
 # Exploratort Data Analysis(EDA)
 
 This section presents a simple exploratory data analysis (EDA) to understand the some of the feature related to the pricing. Below are two visualizations that provide insights into the data:
-  
+**Example of Numerical Features**
+
   <table>
 <tr>
     <td><img src="https://github.com/user-attachments/assets/dc91f5b3-008b-4d82-a30c-46ab94778ec4" alt="Image 1" width="400"/></td>
@@ -20,9 +21,11 @@ This section presents a simple exploratory data analysis (EDA) to understand the
 </table>
  <table>
    
+** Example of Cateogrical Features
+
 <tr>
     <td><img src="https://github.com/user-attachments/assets/4d21c315-07f4-4ec7-ba77-ebf3f13975ac" alt="Image 1" width="400"/></td>
-    <td><img src="https://github.com/user-attachments/assets/cdcc3fb0-e29a-46d3-9731-e02cc1786293" alt="Image 2" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/27d3a76a-af01-4f54-821a-6a392dd30e64" alt="Image 2" width="400"/></td>
 </tr>
 </table>
 
