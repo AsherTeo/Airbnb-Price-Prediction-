@@ -6,7 +6,7 @@ To incorporate textual features like property descriptions, BERT embeddings with
 
 # Dataset
 
-The Airbnb Prices Prediction Dataset can be found [here](https://github.com/georgian-io/Multimodal-Toolkit/tree/master/datasets/Melbourne_Airbnb_Open_Data). The dataset consists of 18,297 training samples, 2,288 validation samples, and 2,288 test samples.
+The Airbnb Prices Dataset can be found [here](https://github.com/georgian-io/Multimodal-Toolkit/tree/master/datasets/Melbourne_Airbnb_Open_Data). The dataset consists of 18,297 training samples, 2,288 validation samples, and 2,288 test samples.
 
 # Exploratort Data Analysis(EDA)
 
