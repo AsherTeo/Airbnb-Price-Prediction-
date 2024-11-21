@@ -48,6 +48,7 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 - Removed features with variance inflation factors (VIF) > 20 to address multicollinearity.
 - Applied Box-Cox transformation to normalize skewed features (skewness > 0.8).
 - Retained features with statistical significance (p-value < 0.05).
+  
   **Categorical Features:**
 - Evaluated importance using Chi-Square test; retained the top 70 features based on scores.
 
