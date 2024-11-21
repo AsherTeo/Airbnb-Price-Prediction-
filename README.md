@@ -63,11 +63,15 @@ A series of experiments were conducted to predict Airbnb prices using different 
 
 Below is a breakdown of the features used, methods applied, and the evaluation metrics (Mean Absolute Error - MAE, and Root Mean Squared Error - RMSE) for each experiment.
 
-Meta - These features include numerical and categorical attributes such as price, location, or property type. Numerical features are converted into descriptive text, and categorical features are transformed into corresponding textual labels.
-Text - Text features, such as property descriptions or reviews, are kept in their own separate columns (e.g., summary_embedding).
-Combined Text - When combining multiple text columns, the individual text values are concatenated using a separator token, such as [SEP] Eg. "We're in the US for 3 weeks [SEP] I’m an Aussie living in Uganda. [SEP] "
+Meta - numerical and categorical attributes 
 
-Convert all features to text - Numerical and categorical features are converted into a textual representation. Eg:
+Text - Text features are kept in their own separate columns 
+
+Combined Text - When combining multiple text columns, the individual text values are concatenated using a separator token, such as [SEP] 
+
+> "We're in the US for 3 weeks [SEP] I’m an Aussie living in Uganda. [SEP] "
+
+Convert all features to text - Numerical and categorical features are converted into a textual representation. 
 
 > The space is separated from the living room by a screen. However it is as big as a bedroom and has a 'window' (actually it's a door) towards the balcony (east-facing). There are a desk, a chair, a lamp, a double size mattress & a portable wardrobe. You will have two flat mates in their 20s and a bunny pet to keep you company. Please NOTE that the living room are affected by NOISE and SMELL from cooking. [SEP] Unknown [SEP] This Airbnb offers amenities such as: hair_dryer, shampoo, heating, and smoking_allowed. It accommodates to 2 guests, with 2 bedrooms, 2 bathrooms, and 2 beds. The cleaning fee costs $11.0. Available for 0 days in the last 30 days and 0 days in the last year. 19 review.
 
