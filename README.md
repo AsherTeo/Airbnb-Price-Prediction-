@@ -23,7 +23,7 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
     <td><img src="https://github.com/user-attachments/assets/cdcc3fb0-e29a-46d3-9731-e02cc1786293" alt="Image 2" width="400"/></td>
 </tr>
 </table>
- <table>
+
    
 **Example of Cateogrical Features**
 
