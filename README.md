@@ -69,7 +69,8 @@ Combined Text - When combining multiple text columns, the individual text values
 
 Convert all features to text - Numerical and categorical features are converted into a textual representation. Eg:
 
-"The space is separated from the living room by a screen. However it is as big as a bedroom and has a 'window' (actually it's a door) towards the balcony (east-facing). There are a desk, a chair, a lamp, a double size mattress & a portable wardrobe. You will have two flat mates in their 20s and a bunny pet to keep you company. Please NOTE that the living room are affected by NOISE and SMELL from cooking. [SEP] Unknown [SEP] This Airbnb offers amenities such as: hair_dryer, shampoo, heating, and smoking_allowed. It accommodates to 2 guests, with 2 bedrooms, 2 bathrooms, and 2 beds. The cleaning fee costs $11.0. Available for 0 days in the last 30 days and 0 days in the last year. 19 review."
+> The space is separated from the living room by a screen. However it is as big as a bedroom and has a 'window' (actually it's a door) towards the balcony (east-facing). There are a desk, a chair, a lamp, a double size mattress & a portable wardrobe. You will have two flat mates in their 20s and a bunny pet to keep you company. Please NOTE that the living room are affected by NOISE and SMELL from cooking. [SEP] Unknown [SEP] This Airbnb offers amenities such as: hair_dryer, shampoo, heating, and smoking_allowed. It accommodates to 2 guests, with 2 bedrooms, 2 bathrooms, and 2 beds. The cleaning fee costs $11.0. Available for 0 days in the last 30 days and 0 days in the last year. 19 review.
+
 
 bert-base-multilingual-cased
 
