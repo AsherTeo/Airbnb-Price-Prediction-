@@ -24,12 +24,12 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 </tr>
 </table>
 
-**Example of Cateogrical Features**
+**Example of Categorical Features**
 
 - **Left Image: The type of room appears to significantly influence price, as entire homes are generally more expensive than shared rooms, reflecting their higher value and privacy.**
 - **Right Image: Location seems to play a critical role in determining Airbnb prices. For instance, Darebin and Casey exhibit the highest average prices, with listings averaging approximately 13k.**
   
-<table>
+  <table>
 <tr>
     <td><img src="https://github.com/user-attachments/assets/4d21c315-07f4-4ec7-ba77-ebf3f13975ac" alt="Image 1" width="400"/></td>
     <td><img src="https://github.com/user-attachments/assets/27d3a76a-af01-4f54-821a-6a392dd30e64" alt="Image 2" width="400"/></td>
@@ -37,12 +37,20 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 </table>
 
 ## Data Proprcessing
-Feature Distribution Analysis: Analyzed the distribution of each feature to identify trends and detect anomalies.
-Price Range Assessment: Checked the minimum and maximum values of the target variable (price) to understand its range and identify potential outliers.
-Manual Feature Selection: Reviewed and manually selected key features based on domain knowledge and their correlation with the target variable.
-
-
+- **Check the minimum and maximum values of the target variable (price) to understand its range and identify potential outliers.**
+- **Review and manually selected key features based on domain knowledge**
+- **Replaced missing values with the median for numerical features and the mode for categorical features**
+  
 # Data Transformation
+
+## Numerical Features
+- Retained features with VIF values less than 20 to address multicollinearity.
+- Applied Box-Cox transformation to features with a skewness factor greater than 0.8 to reduce skewness and normalize the data.
+- Selected features with a p-value less than 0.05 to ensure statistical significance.
+
+## Categorical Features
+- Used the Chi-Square test to evaluate feature importance and selected features with a p-value less than 0.05.
+- From the 140 features meeting the p-value threshold, retained the top 70 features based on their Chi-Square scores for optimal performance.
 
 # Machine Learning
 
