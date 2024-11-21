@@ -44,12 +44,12 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 - Removed prices in the top 5% and bottom 95% of the dataset to eliminate extreme outliers.
 
 ## 2) Feature Selection and Transformation:
-  **Numerical Features:**
+**Numerical Features:**
 - Removed features with variance inflation factors (VIF) > 20 to address multicollinearity.
 - Applied Box-Cox transformation to normalize skewed features (skewness > 0.8).
 - Retained features with statistical significance (p-value < 0.05).
   
-  **Categorical Features:**
+**Categorical Features:**
 - Evaluated importance using Chi-Square test; retained the top 70 features based on scores.
 
 ## 3) Textual Features:
