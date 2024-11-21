@@ -54,7 +54,9 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 
 # Machine Learning
 
+This section outlines experiments conducted using various feature combinations and machine learning methods to predict Airbnb prices. Different data types, such as BERT-base-multilingual-cased embeddings, were evaluated to assess their impact on performance.
 
+The table below summarizes the experiments, detailing the features used, methods applied, and evaluation metrics (Mean Absolute Error - MAE, and Root Mean Squared Error - RMSE):
 
 bert-base-multilingual-cased
 
