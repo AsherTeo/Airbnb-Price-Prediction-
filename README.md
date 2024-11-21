@@ -36,21 +36,24 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 </tr>
 </table>
 
-# Data Proprcessing
-- **Check the minimum and maximum values of the target variable (price) to understand its range and identify potential outliers.**
-- **Review and manually selected key features based on domain knowledge**
-- **Replaced missing values with the median for numerical features and the mode for categorical features**
-  
-# Data Transformation
+# Data Proprcessing and Transformation
 
-## Numerical Features
-- Retained features with VIF values less than 20 to address multicollinearity.
-- Applied Box-Cox transformation to features with a skewness factor greater than 0.8 to reduce skewness and normalize the data.
-- Selected features with a p-value less than 0.05 to ensure statistical significance.
+1. Target Variable (Price):
 
-## Categorical Features
-- Used the Chi-Square test to evaluate feature importance and selected features with a p-value less than 0.05.
-- From the 140 features meeting the p-value threshold, retained the top 70 features based on their Chi-Square scores for optimal performance.
+Checked minimum and maximum values for outliers.
+Outliers capped at 99th percentile to prevent skewed predictions.
+
+2. Feature Selection and Transformation:
+  Numerical Features:
+  Removed features with variance inflation factors (VIF) > 20 to address multicollinearity.
+  Applied Box-Cox transformation to normalize skewed features (skewness > 0.8).
+  Retained features with statistical significance (p-value < 0.05).
+  Categorical Features:
+  Evaluated importance using Chi-Square test; retained the top 70 features based on scores.
+
+3.Textual Features:
+Used BERT-base-multilingual-cased to generate embeddings for property descriptions.
+Aggregated embeddings using Max Pooling for better contextual representation.
 
 # Machine Learning
 
