@@ -15,7 +15,7 @@ This section presents a simple exploratory data analysis (EDA) to understand the
   <table>
 <tr>
     <td><img src="https://github.com/user-attachments/assets/dc91f5b3-008b-4d82-a30c-46ab94778ec4" alt="Image 1" width="400"/></td>
-    <td><img src="https://github.com/user-attachments/assets/06363623-341e-4bc5-8cb0-1dc670d6854a" alt="Image 2" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/cdcc3fb0-e29a-46d3-9731-e02cc1786293" alt="Image 2" width="400"/></td>
 </tr>
 </table>
 
