@@ -21,8 +21,6 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 <tr>
     <td><img src="https://github.com/user-attachments/assets/dc91f5b3-008b-4d82-a30c-46ab94778ec4" alt="Image 1" width="400"/></td>
     <td><img src="https://github.com/user-attachments/assets/cdcc3fb0-e29a-46d3-9731-e02cc1786293" alt="Image 2" width="400"/></td>
-  <td><img src="https://github.com/user-attachments/assets/4d21c315-07f4-4ec7-ba77-ebf3f13975ac" alt="Image 3" width="400"/></td>
-    <td><img src="https://github.com/user-attachments/assets/27d3a76a-af01-4f54-821a-6a392dd30e64" alt="Image 4" width="400"/></td>
 </tr>
 </table>
 
@@ -31,7 +29,7 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 - **Left Image: The type of room appears to significantly influence price, as entire homes are generally more expensive than shared rooms, reflecting their higher value and privacy.**
 - **Right Image: Location seems to play a critical role in determining Airbnb prices. For instance, Darebin and Casey exhibit the highest average prices, with listings averaging approximately 13k.**
   
-  <table>
+<table>
 <tr>
     <td><img src="https://github.com/user-attachments/assets/4d21c315-07f4-4ec7-ba77-ebf3f13975ac" alt="Image 1" width="400"/></td>
     <td><img src="https://github.com/user-attachments/assets/27d3a76a-af01-4f54-821a-6a392dd30e64" alt="Image 2" width="400"/></td>
