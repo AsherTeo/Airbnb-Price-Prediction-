@@ -38,7 +38,7 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 
 # Data Proprcessing and Transformation
 
-##1. Target Variable (Price):
+## 1 Target Variable (Price):
 
 Checked minimum and maximum values for outliers.
 Outliers capped at 99th percentile to prevent skewed predictions.
