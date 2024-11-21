@@ -18,6 +18,13 @@ This section presents a simple exploratory data analysis (EDA) to understand the
     <td><img src="https://github.com/user-attachments/assets/cdcc3fb0-e29a-46d3-9731-e02cc1786293" alt="Image 2" width="400"/></td>
 </tr>
 </table>
+ <table>
+   
+<tr>
+    <td><img src="https://github.com/user-attachments/assets/4d21c315-07f4-4ec7-ba77-ebf3f13975ac" alt="Image 1" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/cdcc3fb0-e29a-46d3-9731-e02cc1786293" alt="Image 2" width="400"/></td>
+</tr>
+</table>
 
 ## Data Proprcessing
 Feature Distribution Analysis: Analyzed the distribution of each feature to identify trends and detect anomalies.
