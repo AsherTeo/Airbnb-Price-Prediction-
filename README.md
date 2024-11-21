@@ -10,6 +10,15 @@ The Airbnb Prices Prediction Dataset can be found [here](https://github.com/geor
 
 # Exploratort Data Analysis(EDA)
 
+This section presents a simple exploratory data analysis (EDA) to understand the some of the feature related to the pricing. Below are two visualizations that provide insights into the data:
+  
+  <table>
+<tr>
+    <td><img src="![image](https://github.com/user-attachments/assets/dc91f5b3-008b-4d82-a30c-46ab94778ec4)" alt="Image 1" width="400"/></td>
+    <td><img src="![image](https://github.com/user-attachments/assets/06363623-341e-4bc5-8cb0-1dc670d6854a)" alt="Image 2" width="400"/></td>
+</tr>
+</table>
+
 ## Data Proprcessing
 Feature Distribution Analysis: Analyzed the distribution of each feature to identify trends and detect anomalies.
 Price Range Assessment: Checked the minimum and maximum values of the target variable (price) to understand its range and identify potential outliers.
