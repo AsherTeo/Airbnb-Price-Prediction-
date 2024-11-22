@@ -83,7 +83,7 @@ Below is a breakdown of the features used, methods applied, and the evaluation m
 | 2    | Meta Only          | 2-Layer MLP                      | **46.577**     | **136.621**      |
 | 3     | Meta Only          | Fine-Tuned XGB                    | **44.115**     | **138.052**      |
 
-## Combined Text & Numerical & Categorical Features only
+## Combined Text & Numerical & Categorical Features 
 
 | **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
 |-------|---------------------|------------------------------------|--------------|---------------|
