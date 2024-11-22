@@ -104,7 +104,9 @@ Below is a breakdown of the features used, methods applied, and the evaluation m
 ## Convert all features to text features
 
 | **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
+|-------|---------------------|------------------------------------|--------------|---------------|
 | 13    | Convert all features to text       | BERT Embedding → Linear       | **78.446**     | **176.159**      |
+
 
 - **Model 1**: Used only text features via a BERT-based model and performed reasonably well.
 - **Model 3**: Fine-tuned XGBRegressor on meta features delivered strong results for numerical data alone.
