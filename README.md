@@ -54,13 +54,13 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 
 ## Combined Text Features
 - When combining multiple text columns, individual text values are concatenated using a separator token, such as [SEP].
-- 
+  
 Example:
 > "We're in the US for 3 weeks [SEP] I’m an Aussie living in Uganda. [SEP] "
 
 ## Convert all features to text 
 
--Numerical and categorical features are transformed into a textual representation to unify feature processing.
+- Numerical and categorical features are transformed into a textual representation to unify feature processing.
 
 > The space is separated from the living room by a screen. However it is as big as a bedroom and has a 'window' (actually it's a door) towards the balcony (east-facing). There are a desk, a chair, a lamp, a double size mattress & a portable wardrobe. You will have two flat mates in their 20s and a bunny pet to keep you company. Please NOTE that the living room are affected by NOISE and SMELL from cooking. [SEP] Unknown [SEP] This Airbnb offers amenities such as: hair_dryer, shampoo, heating, and smoking_allowed. It accommodates to 2 guests, with 2 bedrooms, 2 bathrooms, and 2 beds. The cleaning fee costs $11.0. Available for 0 days in the last 30 days and 0 days in the last year. 19 review.
 
