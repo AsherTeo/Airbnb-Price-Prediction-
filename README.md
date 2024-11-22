@@ -114,15 +114,13 @@ Below is a breakdown of the features used, methods applied, and the evaluation m
 | 13    | Convert all features to text       | BERT Embedding → Linear       | **78.446**     | **176.159**      |
 
 
-- **Model 1**: Used only text features via a BERT-based model and performed reasonably well.
-- **Model 3**: Fine-tuned XGBRegressor on meta features delivered strong results for numerical data alone.
-- **Model 5**: TF-IDF with meta features produced competitive results with fewer resources.
-- **Model 6 & 7**: Pooling strategies with BERT embeddings demonstrated promising performance when combined with meta data.
-
-
+- **Model 1**: Used only text features via a BERT-based model and does not performed well.
+- **Model 3**: Fine-tuned XGBRegressor using Optuna on meta features delivered strong results for numerical data alone.
+- **Model 4 & 6**: Using BERT embeddings (768) combined with metadata did not lead to any improvement in the results.
+- **Model 7- 10**: Pooling strategies with BERT embeddings demonstrated promising performance when combined with meta data.
 
 # Best Performing Model
-Pipeline: BERT (MaxPool) embeddings combined with meta features, followed by Fine-Tuned XGB.
+Pipeline: #7 - BERT (MaxPool) embeddings combined with meta features, followed by Fine-Tuned XGB.
 MAE: 43.551
 RMSE: 136.251
 
