@@ -76,7 +76,7 @@ Below is a breakdown of the features used, methods applied, and the evaluation m
 |-------|---------------------|------------------------------------|--------------|---------------|
 | 1     | Combined Text Only          | BERT Embedding → Linear                     | **77.353**     | **178.627**      |
 
-## Numerical & Categorical Features only
+## Meta Features only
 
 | **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
 |-------|---------------------|------------------------------------|--------------|---------------|
