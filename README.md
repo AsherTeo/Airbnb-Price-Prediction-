@@ -95,6 +95,7 @@ Below is a breakdown of the features used, methods applied, and the evaluation m
 ## Text & Numerical & Categorical Features only
 
 | **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
+|-------|---------------------|------------------------------------|--------------|---------------|
 | 5     | Text + Meta        | TF-IDF + Meta →  Fine-Tuned XGB               | **43.788**     | **138.038**      |
 | 7     | Text + Meta        | BERT (MaxPool) + Meta →  Fine-Tuned XGB       | **43.551**     | **136.251**      |
 | 8     | Text + Meta        | BERT (MeanPool) + Meta →  Fine-Tuned XGB      | **43.775**     | **136.390**      |
