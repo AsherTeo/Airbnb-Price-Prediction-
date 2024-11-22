@@ -92,7 +92,7 @@ Below is a breakdown of the features used, methods applied, and the evaluation m
 | 11    | Combined Text + Meta        | BERT (MaxPool) + Meta →  Fine-Tuned XGB       | **44.208**     | **137.736**      |
 | 12    | Combined Text + Meta        | BERT (MaxPool) + Meta → 2-Layer MLP | **46.254**     | **140.097**      |
 
-## Text & Numerical & Categorical Features only
+## Text & Meta Features
 
 | **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
 |-------|---------------------|------------------------------------|--------------|---------------|
