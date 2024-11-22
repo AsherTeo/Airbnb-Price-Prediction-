@@ -102,8 +102,8 @@ Below is a breakdown of the features used, methods applied, and the evaluation m
 | **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
 |-------|---------------------|------------------------------------|--------------|---------------|
 | 5     | Text + Meta        | TF-IDF + Meta →  Fine-Tuned XGB               | **43.788**     | **138.038**      |
-| 7     | Text + Meta        | BERT (MaxPool) + Meta →  Fine-Tuned XGB       | **43.551**     | **136.251**      |
-| 8     | Text + Meta        | BERT (MeanPool) + Meta →  Fine-Tuned XGB      | **43.775**     | **136.390**      |
+| 7     | Text + Meta        | BERT (MaxPool) + Meta →  Fine-Tuned XGB       | **43.652**     | **136.251**      |
+| 8     | Text + Meta        | BERT (MeanPool) + Meta →  Fine-Tuned XGB      | **43.775**     | **136.034**      |
 | 9     | Text + Meta        | BERT (MaxPool) + Meta → 2-Layer MLP | **45.852**     | **137.473**      |
 | 10     | Text + Meta        | BERT (MeanPool) + Meta → 2-Layer MLP | **46.319**     | **137.098**      |
 
@@ -123,6 +123,8 @@ Below is a breakdown of the features used, methods applied, and the evaluation m
 Pipeline: #7 - BERT (MaxPool) embeddings combined with meta features, followed by Fine-Tuned XGB.
 MAE: 43.551
 RMSE: 136.251
+
+![image](https://github.com/user-attachments/assets/5bcca170-847a-4667-939a-984175f610f9)
 
 ### Notes
 - **BERT Embedding**: Feature vectors extracted from a pre-trained BERT model.
