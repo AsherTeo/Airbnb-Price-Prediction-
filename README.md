@@ -70,18 +70,18 @@ A series of experiments were conducted to predict Airbnb prices using different 
 
 Below is a breakdown of the features used, methods applied, and the evaluation metrics (Mean Absolute Error - MAE, and Root Mean Squared Error - RMSE) for each experiment.
 
+## Text Features only
+
+| **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
+|-------|---------------------|------------------------------------|--------------|---------------|
+| 1     | Combined Text Only          | BERT Embedding → Linear                     | **77.353**     | **178.627**      |
+
 ## Numerical & Categorical Features only
 
 | **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
 |-------|---------------------|------------------------------------|--------------|---------------|
 | 2    | Meta Only          | 2-Layer MLP                      | **46.577**     | **136.621**      |
 | 3     | Meta Only          | Fine-Tuned XGB                    | **44.115**     | **138.052**      |
-
-## Text Features only
-
-| **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
-|-------|---------------------|------------------------------------|--------------|---------------|
-| 1     | Combined Text Only          | BERT Embedding → Linear                     | **77.353**     | **178.627**      |
 
 ## Combined Text & Numerical & Categorical Features only
 
