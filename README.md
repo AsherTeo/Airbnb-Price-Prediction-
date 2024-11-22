@@ -52,7 +52,7 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 ## Text Features 
 - Text features are kept in their own separate columns for isolated analysis.
 
-## Combined Text 
+## Combined Text Features
 - When combining multiple text columns, individual text values are concatenated using a separator token, such as [SEP].
 - 
 Example:
