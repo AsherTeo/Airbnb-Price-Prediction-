@@ -63,16 +63,20 @@ A series of experiments were conducted to predict Airbnb prices using different 
 
 Below is a breakdown of the features used, methods applied, and the evaluation metrics (Mean Absolute Error - MAE, and Root Mean Squared Error - RMSE) for each experiment.
 
-bert-base-multilingual-cased
+## Numerical & Categorical Features only
 
 | **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
 |-------|---------------------|------------------------------------|--------------|---------------|
 | 2    | Meta Only          | 2-Layer MLP                      | **46.577**     | **136.621**      |
 | 3     | Meta Only          | Fine-Tuned XGB                    | **44.115**     | **138.052**      |
 
+## Text Features only
+
 | **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
 |-------|---------------------|------------------------------------|--------------|---------------|
 | 1     | Combined Text Only          | BERT Embedding → Linear                     | **77.353**     | **178.627**      |
+
+## Combined Text & Numerical & Categorical Features only
 
 | **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
 |-------|---------------------|------------------------------------|--------------|---------------|
@@ -81,12 +85,16 @@ bert-base-multilingual-cased
 | 11    | Combined Text + Meta        | BERT (MaxPool) + Meta →  Fine-Tuned XGB       | **44.208**     | **137.736**      |
 | 12    | Combined Text + Meta        | BERT (MaxPool) + Meta → 2-Layer MLP | **46.254**     | **140.097**      |
 
+## Text & Numerical & Categorical Features only
+
 | **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
 | 5     | Text + Meta        | TF-IDF + Meta →  Fine-Tuned XGB               | **43.788**     | **138.038**      |
 | 7     | Text + Meta        | BERT (MaxPool) + Meta →  Fine-Tuned XGB       | **43.551**     | **136.251**      |
 | 8     | Text + Meta        | BERT (MeanPool) + Meta →  Fine-Tuned XGB      | **43.775**     | **136.390**      |
 | 9     | Text + Meta        | BERT (MaxPool) + Meta → 2-Layer MLP | **45.852**     | **137.473**      |
 | 10     | Text + Meta        | BERT (MeanPool) + Meta → 2-Layer MLP | **46.319**     | **137.098**      |
+
+## Convert all features to text features
 
 | **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
 | 13    | Convert all features to text       | BERT Embedding → Linear       | **78.446**     | **176.159**      |
