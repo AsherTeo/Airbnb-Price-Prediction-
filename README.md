@@ -42,7 +42,7 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 - Retained the top 70 features based on scores.
 
 ## 3) Textual Features:
-- Used BERT-base-multilingual-cased to generate embeddings for property descriptions.
+- Used BERT-base-multilingual-cased to generate embeddings for text features.
 - Aggregated embeddings using Max Pooling for better contextual representation.
   
 # Feature Detail 
