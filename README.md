@@ -4,6 +4,8 @@ This project focuses on developing a robust Multi-Modal Machine Learning model t
 
 To incorporate textual features like property descriptions, BERT embeddings with max pooling were employed to extract meaningful contextual representations, which were seamlessly integrated with numerical and categorical features to enhance model performance. Machine Learning models, such as XGBoost, were trained and fine-tuned using Optuna to achieve optimal results. The model's performance, evaluated using Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) on a testing dataset, demonstrated competitive results that outperformed benchmark scores from the author’s [GitHub repository](https://github.com/georgian-io/Multimodal-Toolkit). 
 
+![image](https://github.com/user-attachments/assets/fe603410-1828-4c91-917a-95e2ebdb488c)
+
 # Dataset
 
 The Airbnb Prices Dataset can be found [here](https://github.com/georgian-io/Multimodal-Toolkit/tree/master/datasets/Melbourne_Airbnb_Open_Data). The dataset consists of 18,297 training samples, 2,288 validation samples, and 2,288 test samples.
