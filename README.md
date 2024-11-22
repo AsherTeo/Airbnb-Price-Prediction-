@@ -67,18 +67,28 @@ bert-base-multilingual-cased
 
 | **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
 |-------|---------------------|------------------------------------|--------------|---------------|
-| 1     | Combined Text Only          | BERT Embedding → Linear                     | **77.353**     | **178.627**      |
 | 2    | Meta Only          | 2-Layer MLP                      | **46.577**     | **136.621**      |
 | 3     | Meta Only          | Fine-Tuned XGB                    | **44.115**     | **138.052**      |
+
+| **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
+|-------|---------------------|------------------------------------|--------------|---------------|
+| 1     | Combined Text Only          | BERT Embedding → Linear                     | **77.353**     | **178.627**      |
+
+| **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
+|-------|---------------------|------------------------------------|--------------|---------------|
 | 4     | Combined Text + Meta        | BERT Embedding + Meta → Linear MLP          | **47.210**     | **137.606**      |
-| 5     | Text + Meta        | TF-IDF + Meta →  Fine-Tuned XGB               | **43.788**     | **138.038**      |
 | 6     | Combined Text + Meta        | BERT Embedding + Meta →  Fine-Tuned XGB       | **45.693**     | **140.799**      |
+| 11    | Combined Text + Meta        | BERT (MaxPool) + Meta →  Fine-Tuned XGB       | **44.208**     | **137.736**      |
+| 12    | Combined Text + Meta        | BERT (MaxPool) + Meta → 2-Layer MLP | **46.254**     | **140.097**      |
+
+| **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
+| 5     | Text + Meta        | TF-IDF + Meta →  Fine-Tuned XGB               | **43.788**     | **138.038**      |
 | 7     | Text + Meta        | BERT (MaxPool) + Meta →  Fine-Tuned XGB       | **43.551**     | **136.251**      |
 | 8     | Text + Meta        | BERT (MeanPool) + Meta →  Fine-Tuned XGB      | **43.775**     | **136.390**      |
 | 9     | Text + Meta        | BERT (MaxPool) + Meta → 2-Layer MLP | **45.852**     | **137.473**      |
 | 10     | Text + Meta        | BERT (MeanPool) + Meta → 2-Layer MLP | **46.319**     | **137.098**      |
-| 11    | Combined Text + Meta        | BERT (MaxPool) + Meta →  Fine-Tuned XGB       | **44.208**     | **137.736**      |
-| 12    | Combined Text + Meta        | BERT (MaxPool) + Meta → 2-Layer MLP | **46.254**     | **140.097**      |
+
+| **#** | **Features**       | **Methods**                        | **Test MAE** | **Test RMSE** |
 | 13    | Convert all features to text       | BERT Embedding → Linear       | **78.446**     | **176.159**      |
 
 - **Model 1**: Used only text features via a BERT-based model and performed reasonably well.
