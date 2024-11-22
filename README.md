@@ -17,11 +17,7 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 - **Left Image: The price range does not increase consistently with the number of bedrooms**
 - **Right Image: There appears to be no clear correlation between the number of rooms and price, as properties with 2 rooms can have prices comparable to those with 8 rooms. This suggests that other factors might play a more significant role in determining price.**
   
-  <table>
-<tr>
-    <td><img src="https://github.com/user-attachments/assets/dc91f5b3-008b-4d82-a30c-46ab94778ec4" alt="Image 1" width="400"/></td>
-    <td><img src="https://github.com/user-attachments/assets/cdcc3fb0-e29a-46d3-9731-e02cc1786293" alt="Image 2" width="400"/></td>
-</tr>
+
 
 
 # Data Proprcessing and Transformation
@@ -120,4 +116,10 @@ RMSE: 136.251
 - **BERT Embedding**: Feature vectors extracted from a pre-trained BERT model.
 - **MaxPooling/MeanPooling**: Methods to aggregate BERT embeddings into fixed-length vectors.
 - **Meta Data**: Includes numerical and categorical information processed through an MLP or concatenated with text features.
+
+  <table>
+<tr>
+    <td><img src="https://github.com/user-attachments/assets/dc91f5b3-008b-4d82-a30c-46ab94778ec4" alt="Image 1" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/cdcc3fb0-e29a-46d3-9731-e02cc1786293" alt="Image 2" width="400"/></td>
+</tr>
 
