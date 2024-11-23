@@ -1,3 +1,4 @@
+
 # Overview
 
 This project focuses on developing a robust Multi-Modal Machine Learning model to predict Airbnb prices in Melbourne. The dataset comprises 275 diverse features, including property details, location attributes, and host information. The process began with Exploratory Data Analysis (EDA) to identify trends, correlations, and patterns, followed by Data Transformation, where comprehensive feature engineering, scaling, and encoding were applied to prepare the data.
@@ -81,8 +82,9 @@ Below is a breakdown of the features used, methods applied, and the evaluation m
 **Layer Configuration:**
 - First 6 layers of BERT were frozen to retain general language understanding.
 - Last 6 layers were fine-tuned for domain-specific learning.
+  
 **Loss Function: Utilized Mean Squared Error (MSE).**
-**Learning Rate: Set to 0.001 for all layers.
+**Learning Rate: Set to 0.001 for all layers.**
 
 
 ## Text Features only
