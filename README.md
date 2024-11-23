@@ -2,7 +2,9 @@
 
 This project focuses on developing a robust Multi-Modal Machine Learning model to predict Airbnb prices in Melbourne. The dataset comprises 275 diverse features, including property details, location attributes, and host information. The process began with Exploratory Data Analysis (EDA) to identify trends, correlations, and patterns, followed by Data Transformation, where comprehensive feature engineering, scaling, and encoding were applied to prepare the data.
 
-To incorporate textual features like property descriptions, BERT embeddings with max pooling were employed to extract meaningful contextual representations, which were seamlessly integrated with numerical and categorical features to enhance model performance. Machine Learning models, such as XGBoost, were trained and fine-tuned using Optuna to achieve optimal results. The model's performance, evaluated using Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) on a testing dataset, demonstrated competitive results that outperformed benchmark scores from the author’s [GitHub repository](https://github.com/georgian-io/Multimodal-Toolkit). 
+To incorporate textual features like property descriptions, BERT embeddings were utilized. The first 6 layers of BERT were frozen to retain general language understanding, while the last 6 layers were fine-tuned to adapt to the specific domain of property descriptions. Max pooling was then applied to extract meaningful contextual representations, which were seamlessly integrated with numerical and categorical features to enhance model performance.
+
+Machine Learning models, such as XGBoost, were trained and fine-tuned using Optuna to achieve optimal results. The model's performance, evaluated using Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) on a testing dataset, demonstrated competitive results that outperformed benchmark scores from the author’s [GitHub repository](https://github.com/georgian-io/Multimodal-Toolkit). 
 
 # Multimodal Architecture
 
@@ -75,6 +77,13 @@ Example:
 A series of experiments were conducted to predict Airbnb prices using different data modalities (text, metadata, and combined features). We also explored a range of machine learning architectures, including hybrid models that combined text-based embeddings with structured metadata. 
 
 Below is a breakdown of the features used, methods applied, and the evaluation metrics (Mean Absolute Error - MAE, and Root Mean Squared Error - RMSE) for each experiment.
+
+**Layer Configuration:**
+- First 6 layers of BERT were frozen to retain general language understanding.
+- Last 6 layers were fine-tuned for domain-specific learning.
+**Loss Function: Utilized Mean Squared Error (MSE).**
+**Learning Rate: Set to 0.001 for all layers.
+
 
 ## Text Features only
 
