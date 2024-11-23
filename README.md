@@ -51,6 +51,7 @@ This section presents a straightforward Exploratory Data Analysis (EDA) to explo
 - Aggregated embeddings using Max Pooling for better contextual representation.
   
 # Feature Detail 
+
 ## Meta Features
 - Represents the selected numerical and categorical features after feature engineering
 
