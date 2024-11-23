@@ -83,9 +83,9 @@ Below is a breakdown of the features used, methods applied, and the evaluation m
 - First 6 layers of BERT were frozen to retain general language understanding.
 - Last 6 layers were fine-tuned for domain-specific learning.
   
-**Loss Function: Utilized Mean Squared Error (MSE).**
+**Loss Function: Mean Squared Error (MSE).**
 
-**Learning Rate: Set to 0.001 for all layers.**
+**Learning Rate: 0.001 for all layers.**
 
 ## Text Features only
 
