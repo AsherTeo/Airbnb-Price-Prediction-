@@ -122,7 +122,7 @@ Below is a breakdown of the features used, methods applied, and the evaluation m
 
 # Best Performing Model
 #7 - BERT (MaxPool) embeddings combined with meta features, followed by Fine-Tuned XGB.
-- MAE: 43.551
+- MAE: 43.652
 - RMSE: 136.251
 
 # Top 20 Features
