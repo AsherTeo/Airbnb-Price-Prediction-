@@ -120,16 +120,17 @@ Below is a breakdown of the features used, methods applied, and the evaluation m
 - **Model 7- 10**: Pooling strategies with BERT embeddings demonstrated promising performance when combined with meta data.
 
 # Best Performing Model
-Pipeline: #7 - BERT (MaxPool) embeddings combined with meta features, followed by Fine-Tuned XGB.
-MAE: 43.551
-RMSE: 136.251
+#7 - BERT (MaxPool) embeddings combined with meta features, followed by Fine-Tuned XGB.
+- MAE: 43.551
+- RMSE: 136.251
 
+# Top 20 Features
 ![image](https://github.com/user-attachments/assets/5bcca170-847a-4667-939a-984175f610f9)
 
 ### Notes
 - **BERT Embedding**: Feature vectors extracted from a pre-trained BERT model.
 - **MaxPooling/MeanPooling**: Methods to aggregate BERT embeddings into fixed-length vectors.
-- **Meta Data**: Includes numerical and categorical information processed through an MLP or concatenated with text features.
+
 
 
 
