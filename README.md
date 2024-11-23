@@ -125,7 +125,7 @@ Below is a breakdown of the features used, methods applied, and the evaluation m
 - MAE: 43.652
 - RMSE: 136.251
 
-# Top 20 Features
+# Top 20 Important Features
 ![image](https://github.com/user-attachments/assets/5bcca170-847a-4667-939a-984175f610f9)
 
 ### Notes
