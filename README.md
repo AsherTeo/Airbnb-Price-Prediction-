@@ -132,7 +132,9 @@ Below is a breakdown of the features used, methods applied, and the evaluation m
 - **BERT Embedding**: Feature vectors extracted from a pre-trained BERT model.
 - **MaxPooling/MeanPooling**: Methods to aggregate BERT embeddings into fixed-length vectors.
 
+# Conclusion
 
+In conclusion, incorporating text features does improve the MAE and RMSE results, but the effectiveness depends on how these features are utilized. Using raw BERT embeddings with 768 dimensions does not yield significant improvement. However, applying max pooling to identify the most important features within each text contributes to better performance. Furthermore, could training a linear layer with 512 dimensions before applying max pooling further enhance the results by learning more refined representations?
 
 
 
