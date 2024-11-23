@@ -77,8 +77,6 @@ Example:
 
 A series of experiments were conducted to predict Airbnb prices using different data modalities (text, metadata, and combined features). We also explored a range of machine learning architectures, including hybrid models that combined text-based embeddings with structured metadata. 
 
-Below is a breakdown of the features used, methods applied, and the evaluation metrics (Mean Absolute Error - MAE, and Root Mean Squared Error - RMSE) for each experiment.
-
 **Layer Configuration:**
 - First 6 layers of BERT were frozen to retain general language understanding.
 - Last 6 layers were fine-tuned for domain-specific learning.
@@ -86,6 +84,8 @@ Below is a breakdown of the features used, methods applied, and the evaluation m
 **Loss Function: Mean Squared Error (MSE).**
 
 **Learning Rate: 0.001 for all layers.**
+
+Below is a breakdown of the features used, methods applied, and the evaluation metrics (Mean Absolute Error - MAE, and Root Mean Squared Error - RMSE) for each experiment.
 
 ## Text Features only
 
